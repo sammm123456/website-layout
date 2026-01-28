@@ -22,13 +22,13 @@ body {
 .header, .footer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     height: min-content;
-    padding: 16px 15%;
+    background-color: #1F2937;
 }
 
 .header {
-    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 20px 15%;
 }
 
 .container {
@@ -175,6 +175,7 @@ ul {
     gap: 150px;
     padding: 16px 50px;
     height: 165px;
+    border-radius: 15px;
 }
 
 h3 {
@@ -193,5 +194,11 @@ h3 {
 .callout button {
     border-width: 2px;
     border-style: solid;
+}
+
+.footer {
+    color: #f9faf8;
+    justify-content: center;
+    padding: 30px 15%;
 }
 
