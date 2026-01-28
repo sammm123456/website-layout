@@ -159,3 +159,39 @@ ul {
     align-self: flex-end;
     padding: 0px 60px 0px 0px
 }
+
+/* section 4 */
+
+.white-two {
+    background-color: #f9faf8;
+}
+
+.callout {
+    background-color: #3882f6;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding: 16px 50px;
+    height: 165px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    color: #f9faf8;
+    margin-bottom: 6px;
+}
+
+.sign {
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+.callout button {
+    border-width: 2px;
+    border-style: solid;
+}
+
